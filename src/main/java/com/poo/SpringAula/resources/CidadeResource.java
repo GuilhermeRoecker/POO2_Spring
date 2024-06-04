@@ -30,6 +30,11 @@ public class CidadeResource {
         return service.findByIdCidade(id);
     }
 
+    @GetMapping("/nome/{nome}")
+    public Cidade findByNomeCidade(@PathVariable String nome){
+        return service.findByNomeCidade(nome);
+    }
+
     @PostMapping
     public Cidade cadastra(@RequestBody Cidade c){
         return service.insereCidade(c);

@@ -26,6 +26,10 @@ public class CidadeService {
         return repository.findById(id).orElse(null);
     }
 
+    public Cidade findByNomeCidade(String nome){
+        return repository.findByNome(nome);
+    }
+
     public void excluiCidade(Cidade c){
         repository.delete(c);
     }

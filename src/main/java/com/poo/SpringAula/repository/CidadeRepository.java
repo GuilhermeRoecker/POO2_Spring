@@ -6,4 +6,5 @@ import com.poo.SpringAula.model.Cidade;
 
 public interface CidadeRepository extends JpaRepository<Cidade, Integer> {  
 
+    public Cidade findByNome(String nome);
 }
