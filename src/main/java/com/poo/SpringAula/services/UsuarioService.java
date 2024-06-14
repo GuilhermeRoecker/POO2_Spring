@@ -26,7 +26,7 @@ public class UsuarioService {
         return repository.findById(id).orElse(null);
     }
 
-    public void excluiCidade(Usuario u){
+    public void excluiUsuario(Usuario u){
         repository.delete(u);
     }
 
