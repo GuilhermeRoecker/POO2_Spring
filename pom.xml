@@ -14,7 +14,7 @@
 	<name>SpringAula</name>
 	<description>Projeto Introdução ao spring</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>22</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
